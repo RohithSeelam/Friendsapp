@@ -71,6 +71,7 @@ const toastConfig = {
 };
 
 const StackNav = () => {
+  console.log(2)
   const Stack = createNativeStackNavigator();
   const navigation = useNavigation();
   return (
